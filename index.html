@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francisco Calvo Rodriguez - Ingeniero en Sistemas</title>
+    <meta name="description"
+        content="Portafolio personal de Francisco Calvo Rodriguez, Ingeniero en Sistemas Computacionales.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&family=JetBrains+Mono&display=swap"
+        rel="stylesheet">
+    <!-- Icons (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="dark-theme">
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">[FC]</a> <!-- Monograma -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <p class="greeting">Hola, soy</p>
+                <h1 class="name typewriter">Francisco Calvo Rodriguez</h1>
+                <h2 class="role">Ingeniero en <span class="gradient-text">Sistemas Computacionales</span></h2>
+                <p class="bio">Construyendo soluciones eficientes, escalables y elegantes para problemas complejos
+                    orientados a mejorar procesos.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Ver mis proyectos</a>
+                    <a href="#contact" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="aurora-1"></div>
+                <div class="aurora-2"></div>
+                <div class="aurora-3"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-grid">
+                <div class="about-image glass-card reveal">
+                    <!-- Placeholder Profile Picture -->
+                    <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="Foto de perfil placeholder" class="profile-img">
+                </div>
+                <div class="about-text reveal">
+                    <p>Soy un Ingeniero en Sistemas enfocado en transformar ideas complejas en código limpio y
+                        eficiente. Tengo experiencia en el ciclo de vida completo de desarrollo, centrado en resultados
+                        reales y escalabilidad, enfocado en startups y proyectos innovadores.</p>
+                    <p>Me apasiona mantenerme al día con las últimas tecnologías y buscar siempre "el porqué" detrás de
+                        cada línea de código. Cuando no estoy programando, me encontrarás explorando nuevas herramientas
+                        o diseñando la arquitectura del próximo gran proyecto.</p>
+                    <div class="stats-grid">
+                        <div class="stat glass-card">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Años de Exp.</span>
+                        </div>
+                        <div class="stat glass-card">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Proyectos</span>
+                        </div>
+                        <div class="stat glass-card">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Compromiso</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <p class="section-subtitle">Casos de estudio y demostraciones de soluciones reales.</p>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card glass-card reveal">
+                    <div class="project-img-wrapper">
+                        <!-- Placeholder Image -->
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Sistema CEDAL Koha">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema CEDAL Koha</h3>
+                        <p class="project-desc">Automatización de datos, filtrado y manejo de información para la
+                            búsqueda eficiente de libros.</p>
+                        <div class="tech-stack">
+                            <span>Koha</span><span>Automatización</span><span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://cedal-koha.ilce.edu.mx/" target="_blank" class="project-link"
+                                aria-label="Ver Demo"><i data-lucide="external-link"></i>
+                                Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 2 -->
+                <article class="project-card glass-card reveal">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Proyecto 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>[Nombre Proyecto 2]</h3>
+                        <p class="project-desc">Descripción enfocada en el retorno de inversión o mejora de métricas
+                            tras la implementación en la startup.</p>
+                        <div class="tech-stack">
+                            <span>Python</span><span>Django</span><span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="Ver Código"><i data-lucide="github"></i>
+                                Código</a>
+                            <a href="#" class="project-link" aria-label="Ver Demo"><i data-lucide="external-link"></i>
+                                Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 3 -->
+                <article class="project-card glass-card reveal">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Proyecto 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>[Nombre Proyecto 3]</h3>
+                        <p class="project-desc">Sistema escalable diseñado para soportar alta concurrencia de usuarios
+                            garantizando alta disponibilidad.</p>
+                        <div class="tech-stack">
+                            <span>TypeScript</span><span>Next.js</span><span>Redis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="Ver Código"><i data-lucide="github"></i>
+                                Código</a>
+                            <a href="#" class="project-link" aria-label="Ver Demo"><i data-lucide="external-link"></i>
+                                Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 4 -->
+                <article class="project-card glass-card reveal">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Proyecto 4">
+                    </div>
+                    <div class="project-content">
+                        <h3>[Nombre Proyecto 4]</h3>
+                        <p class="project-desc">Integración de arquitectura de microservicios, seguridad avanzada y
+                            control de acceso robusto.</p>
+                        <div class="tech-stack">
+                            <span>Java</span><span>Spring</span><span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="Ver Código"><i data-lucide="github"></i>
+                                Código</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 5 -->
+                <article class="project-card glass-card reveal">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Proyecto 5">
+                    </div>
+                    <div class="project-content">
+                        <h3>[Nombre Proyecto 5]</h3>
+                        <p class="project-desc">Análisis de datos y dashboard en tiempo real con WebSockets para toma de
+                            decisiones ágil.</p>
+                        <div class="tech-stack">
+                            <span>React</span><span>D3.js</span><span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="Ver Código"><i data-lucide="github"></i>
+                                Código</a>
+                            <a href="#" class="project-link" aria-label="Ver Demo"><i data-lucide="external-link"></i>
+                                Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 6 -->
+                <article class="project-card glass-card reveal">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1627398225081-24c8b543d15c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Proyecto 6">
+                    </div>
+                    <div class="project-content">
+                        <h3>[Nombre Proyecto 6]</h3>
+                        <p class="project-desc">Herramienta backend orquestando pipelines de procesamiento usando
+                            tecnologías en la nube eficientes.</p>
+                        <div class="tech-stack">
+                            <span>Go</span><span>Docker</span><span>Kubernetes</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="Ver Código"><i data-lucide="github"></i>
+                                Código</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <h2 class="section-title">Habilidades y Herramientas</h2>
+            <div class="skills-container glass-card reveal">
+                <div class="skills-category">
+                    <h3><i data-lucide="monitor"></i> Frontend</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">HTML5 / CSS3</span>
+                        <span class="skill-tag">JavaScript / ES6+</span>
+                        <span class="skill-tag">React / Next.js</span>
+                        <span class="skill-tag">Tailwind / SASS</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i data-lucide="server"></i> Backend</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Node.js / Express</span>
+                        <span class="skill-tag">Python / Django</span>
+                        <span class="skill-tag">Java / Spring Boot</span>
+                        <span class="skill-tag">Bases de Datos (SQL/NoSQL)</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i data-lucide="terminal"></i> Tools & Cloud</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Git / GitHub</span>
+                        <span class="skill-tag">Docker / Kubernetes</span>
+                        <span class="skill-tag">AWS / Azure</span>
+                        <span class="skill-tag">CI/CD Pipelines</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section">
+            <h2 class="section-title">Trayectoria</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Prácticas Profesionales</h3>
+                        <h4>Instituto Latinoamericano de la Comunicación Educativa (ILCE)</h4>
+                        <span class="timeline-date">2025 - 2026</span>
+                        <p>Automatización de datos, filtrado y manejo de información para la búsqueda de libros en el
+                            sistema CEDAL Koha.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Ingeniería en Sistemas Computacionales</h3>
+                        <h4>Universidad virtual del Estado de Guanajuato</h4>
+                        <span class="timeline-date">2022 - 2025</span>
+                        <p>Graduado con honores y promedio de 95. Fundamentos sólidos en computación, estructuras de
+                            datos, diseño de algoritmos y arquitectura.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <h2 class="section-title">Hablemos</h2>
+            <div class="contact-container glass-card reveal">
+                <div class="contact-info">
+                    <h3>¿Listo para colaborar?</h3>
+                    <p>Estoy disponible para nuevos retos y proyectos freelance. Como Ingeniero de Sistemas, garantizo
+                        soluciones de alto nivel y escalabilidad. Construyamos algo increíble juntos.</p>
+                    <div class="social-links">
+                        <a href="mailto:[TU_CORREO@EMAIL.COM]" aria-label="Email" title="Email"><i
+                                data-lucide="mail"></i></a>
+                        <a href="https://linkedin.com/in/[TU-PERFIL]" target="_blank" aria-label="LinkedIn"
+                            title="LinkedIn"><i data-lucide="linkedin"></i></a>
+                        <a href="https://github.com/[TU-USUARIO]" target="_blank" aria-label="GitHub" title="GitHub"><i
+                                data-lucide="github"></i></a>
+                        <a href="https://x.com/[TU-USUARIO]" target="_blank" aria-label="Twitter/X" title="Twitter/X"><i
+                                data-lucide="twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="sr-only">Nombre</label>
+                        <input type="text" id="name" placeholder="Tu Nombre completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Correo electrónico</label>
+                        <input type="email" id="email" placeholder="Correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="sr-only">Mensaje</label>
+                        <textarea id="message" rows="5" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Enviar Mensaje <i
+                            data-lucide="send"></i></button>
+                    <p id="form-msg" class="form-msg"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="#" class="logo footer-logo">[FC]</a>
+            <p>&copy; 2026 Francisco Calvo Rodriguez. Todos los derechos reservados.</p>
+            <p class="built-with">Ingeniero en Sistemas Computacionales.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
