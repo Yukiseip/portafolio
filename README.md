@@ -4,7 +4,7 @@ Este es un sitio web de portafolio moderno, altamente visual y profesional, dise
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 | Tecnología | Propósito | ¿Por qué? |
 | :--- | :--- | :--- |
@@ -17,7 +17,7 @@ Este es un sitio web de portafolio moderno, altamente visual y profesional, dise
 
 ---
 
-## ✨ Características Principales
+## Características Principales
 
 *   **Diseño Narrativo Premium:** Estética en modo oscuro con efectos de *glassmorphism* (vidrio esmerilado) y gradientes vibrantes.
 *   **Fondos "Aurora":** Animaciones fluidas en el fondo que dan vida y dinamismo al sitio sin sacrificar rendimiento.
@@ -31,7 +31,7 @@ Este es un sitio web de portafolio moderno, altamente visual y profesional, dise
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 Portafolio/
@@ -46,7 +46,7 @@ Portafolio/
 
 ---
 
-## 🛠️ Instalación y Uso
+## Instalación y Uso
 
 No requiere compilación. Simplemente clona el repositorio y abre el archivo `index.html` en tu navegador favorito o utiliza una extensión como *Live Server* en VS Code.
 
@@ -62,6 +62,6 @@ cd nombre-del-repo
 
 ---
 
-## 📧 Contacto
+## Contacto
 
 Francisco Calvo Rodriguez – [LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/)
